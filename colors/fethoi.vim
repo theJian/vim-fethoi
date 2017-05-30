@@ -107,7 +107,7 @@ call s:h("String", 'green')
 call s:h('Number', 'green')
 " call s:h('Boolean', 'green')
 " call s:h('Float', 'green')
-call s:h('Identifier', 'cyan')
+call s:h('Identifier', 'violet')
 " call s:h('Function', 'cyan')
 call s:h('Statement', 'blue')
 " call s:h('Conditional', 'blue')
@@ -214,6 +214,11 @@ call s:h('WildMenu', 'base7', 'base4')
 
 " Python
 call s:h('pythonStatement', 'blue')
+
+" JavaScript
+call s:h('javaScriptFunction', 'blue')
+call s:h('javaScriptBraces', 'blue')
+call s:h('javaScriptParens', 'blue')
 
 " Clean up =====================================================================
 

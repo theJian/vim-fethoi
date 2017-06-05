@@ -69,8 +69,8 @@ let s:colors.base7 = { 'gui': '#d3efeb', 'cterm': 15 }
 let s:colors.yellow  = { 'gui': '#f1e118', 'cterm': 3 }
 let s:colors.orange  = { 'gui': '#e68e43', 'cterm': 9 }
 let s:colors.red  = { 'gui': '#ab1515', 'cterm': 1 }
-let s:colors.magenta  = { 'gui': '#65859c', 'cterm': 5 }
-let s:colors.violet  = { 'gui': '#6f6484', 'cterm': 13 }
+let s:colors.magenta  = { 'gui': '#7672ab', 'cterm': 5 }
+let s:colors.violet  = { 'gui': '#453973', 'cterm': 13 }
 let s:colors.blue  = { 'gui': '#28858a', 'cterm': 4 }
 let s:colors.cyan  = { 'gui': '#42ceba', 'cterm': 6 }
 let s:colors.green  = { 'gui': '#05bb89', 'cterm': 2 }
@@ -156,7 +156,7 @@ call s:h('ModeMsg', 'orange')
 call s:h('WarningMsg', 'red')
 
 " Cursor
-call s:h('Cursor', 'base1', 'base3')
+call s:h('Cursor', 'base1', 'base6')
 call s:h('CursorLine', '', 'base1')
 call s:h('CursorColumn', '', 'base1')
 
@@ -219,6 +219,8 @@ call s:h('pythonStatement', 'blue')
 call s:h('javaScriptFunction', 'blue')
 call s:h('javaScriptBraces', 'blue')
 call s:h('javaScriptParens', 'blue')
+call s:h('javaScriptIdentifier', 'blue')
+call s:h('javaScriptReserved', 'blue')
 
 " Clean up =====================================================================
 

@@ -66,14 +66,14 @@ let s:colors.base4 = { 'gui': '#1e7971', 'cterm': 11 }
 let s:colors.base5 = { 'gui': '#5fb7b3', 'cterm': 14 }
 let s:colors.base6 = { 'gui': '#c3f3e8', 'cterm': 7 }
 let s:colors.base7 = { 'gui': '#d3efeb', 'cterm': 15 }
-let s:colors.yellow  = { 'gui': '#f1e118', 'cterm': 3 }
+let s:colors.yellow  = { 'gui': '#b7a668', 'cterm': 3 }
 let s:colors.orange  = { 'gui': '#e68e43', 'cterm': 9 }
-let s:colors.red  = { 'gui': '#ab1515', 'cterm': 1 }
-let s:colors.magenta  = { 'gui': '#7672ab', 'cterm': 5 }
-let s:colors.violet  = { 'gui': '#736986', 'cterm': 13 }
+let s:colors.red  = { 'gui': '#c71f43', 'cterm': 1 }
+let s:colors.magenta  = { 'gui': '#90708c', 'cterm': 5 }
+let s:colors.violet  = { 'gui': '#8984c3', 'cterm': 13 }
 let s:colors.blue  = { 'gui': '#28858a', 'cterm': 4 }
-let s:colors.cyan  = { 'gui': '#42ceba', 'cterm': 6 }
-let s:colors.green  = { 'gui': '#05bb89', 'cterm': 2 }
+let s:colors.cyan  = { 'gui': '#0ea5c5', 'cterm': 6 }
+let s:colors.green  = { 'gui': '#019469', 'cterm': 2 }
 
 " neovim terminal
 let g:terminal_color_0  = get(s:colors.base0, 'gui')
@@ -103,36 +103,15 @@ call s:h('Normal', 'base5', s:background)
 call s:h('Comment', 'base4')
 call s:h('Constant', 'cyan')
 call s:h("String", 'green')
-" call s:h('Character', 'green')
 call s:h('Number', 'green')
-" call s:h('Boolean', 'green')
-" call s:h('Float', 'green')
-call s:h('Identifier', 'violet')
-" call s:h('Function', 'cyan')
+call s:h('Identifier', 'magenta')
 call s:h('Statement', 'blue')
-" call s:h('Conditional', 'blue')
-" call s:h('Repeat', 'blue')
-" call s:h('Label', 'blue')
-" call s:h('Operator', 'blue')
-" call s:h('Keyword', 'blue)
-" call s:h('Exception', 'blue')
-" call s:h('PreProc', 'blue')
-" call s:h('Include', 'blue')
-" call s:h('Define', 'blue')
-" call s:h('Macro', 'blue)
-" call s:h('PreCondit', 'blue')
+call s:h('PreProc', 'violet')
 call s:h('Type', 'orange')
-" call s:h('StorageClass')
-" call s:h('Structure')
-" call s:h('Typedef')
 call s:h('Special', 'orange')
-" call s:h('SpecialChar')
 call s:h('Tag', 'blue')
 call s:h('Delimiter', 'orange')
-" call s:h('SpecialComment')
-" call s:h('Debug')
 call s:h('Underlined', 'yellow', '', 'underline')
-" call s:h('Ignore')
 call s:h('Error', 'red', 'base0')
 call s:h('Todo', 'base5', 'base2', 'bold') " anything that needs extra attention; mostly the keywords TODO FIXME and XXX
 
@@ -140,10 +119,10 @@ call s:h('Todo', 'base5', 'base2', 'bold') " anything that needs extra attention
 call s:h('Directory', 'blue')
 
 " Diffing
-call s:h('DiffAdd', 'base4', 'green')
-call s:h('DiffChange', 'base4', 'blue')
-call s:h('DiffDelete', 'base4', 'red')
-call s:h('DiffText', 'base4', 'cyan')
+call s:h('DiffAdd', 'base6', 'green')
+call s:h('DiffChange', 'base6', 'blue')
+call s:h('DiffDelete', 'base6', 'red')
+call s:h('DiffText', 'base6', 'cyan')
 call s:h('DiffAdded', 'green')
 call s:h('DiffChanged', 'blue')
 call s:h('DiffRemoved', 'red')
@@ -177,8 +156,8 @@ call s:h('StatusLine', 'base5', s:linenr_background)
 call s:h('StatusLineNC', 'base4', s:background)
 
 " Folds
-call s:h('Folded', 'violet')
-call s:h('FoldColumn', 'violet')
+call s:h('Folded', 'base4')
+call s:h('FoldColumn', 'base4')
 
 " Searching
 call s:h('Search', 'base1', 'yellow')

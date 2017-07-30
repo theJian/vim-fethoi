@@ -8,7 +8,7 @@ Install manually or use a package manager whatever you like.
 Once you have done, set the color scheme in your `vimrc`.
 
 ```
-	colorscheme fethoi
+colorscheme fethoi
 ```
 
 ### Screenshots

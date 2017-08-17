@@ -67,13 +67,13 @@ let s:colors.base5 = { 'gui': '#5fb7b3', 'cterm': 14 }
 let s:colors.base6 = { 'gui': '#c3f3e8', 'cterm': 7 }
 let s:colors.base7 = { 'gui': '#d3efeb', 'cterm': 15 }
 let s:colors.yellow  = { 'gui': '#b7a668', 'cterm': 3 }
-let s:colors.orange  = { 'gui': '#e68e43', 'cterm': 9 }
+let s:colors.orange  = { 'gui': '#bf6654', 'cterm': 9 }
 let s:colors.red  = { 'gui': '#c71f43', 'cterm': 1 }
 let s:colors.magenta  = { 'gui': '#90708c', 'cterm': 5 }
 let s:colors.violet  = { 'gui': '#8984c3', 'cterm': 13 }
 let s:colors.blue  = { 'gui': '#28858a', 'cterm': 4 }
 let s:colors.cyan  = { 'gui': '#0ea5c5', 'cterm': 6 }
-let s:colors.green  = { 'gui': '#019469', 'cterm': 2 }
+let s:colors.green  = { 'gui': '#5ac878', 'cterm': 2 }
 
 " neovim terminal
 let g:terminal_color_0  = get(s:colors.base0, 'gui')

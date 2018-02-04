@@ -165,7 +165,7 @@ call s:h('Visual', '', 'color15')
 call s:h('VertSplit', 'color0', 'color8')
 
 " Status line
-call s:h('StatusLine', 'color15', 'color4')
+call s:h('StatusLine', 'color7', 'color4')
 call s:h('StatusLineNC', 'bg', 'color8')
 
 " Folds
@@ -202,7 +202,7 @@ call s:h('TabLineFill', '', 'color15')
 call s:h('Title', 'color15', '', 'bold')
 
 " Wild menu
-call s:h('WildMenu', 'color7', 'color4')
+call s:h('WildMenu', 'color4', 'color7')
 
 " Python
 call s:h('pythonStatement', 'color4')

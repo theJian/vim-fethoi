@@ -18,9 +18,8 @@ comming soon
 
 ### Palette
 
-comming soon
+![palette](assets/palette.png)
 
 #### Other Environments
 
 comming soon
-

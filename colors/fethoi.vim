@@ -145,8 +145,8 @@ call s:h('DiffSubname', 'color4')
 " Command line
 call s:h('ErrorMsg', 'color1')
 call s:h('Error', 'color1')
-call s:h('ModeMsg', 'color11')
-call s:h('WarningMsg', 'color11')
+call s:h('ModeMsg', 'color15')
+call s:h('WarningMsg', 'color9')
 call s:h('MoreMsg', 'fg')
 
 " Cursor

@@ -1,6 +1,7 @@
-# fethoi
-
-A dark&quiet colorscheme for Vim
+<div align="center">
+	<h1>fethoi</h1>
+	<p>A low contrast color scheme for vim</p>
+</div>
 
 ### Installation
 
@@ -11,4 +12,15 @@ Once you have done, set the color scheme in your `vimrc`.
 colorscheme fethoi
 ```
 
-### Screenshots
+### Gallery
+
+comming soon
+
+### Palette
+
+comming soon
+
+#### Other Environments
+
+comming soon
+

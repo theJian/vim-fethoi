@@ -147,6 +147,7 @@ call s:h('ErrorMsg', 'color1')
 call s:h('Error', 'color1')
 call s:h('ModeMsg', 'color11')
 call s:h('WarningMsg', 'color11')
+call s:h('MoreMsg', 'fg')
 
 " Cursor
 call s:h('CursorLine', '', 'hover')
